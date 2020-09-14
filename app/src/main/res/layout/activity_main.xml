@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="467dp"
+            android:background="@color/yellow"
+            android:src="@drawable/company" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:background="@color/textc"
+            android:gravity="center"
+            android:text="MobiDir"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="@color/yellow"
+            android:textSize="34dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="86dp"
+            android:background="@color/stayc"
+            android:gravity="center"
+            android:text="Stay in touch with Companies"
+            android:textColor="@color/yellow"
+            android:textSize="24dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/laoding1"
+            android:background="@color/yellow"
+/>
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

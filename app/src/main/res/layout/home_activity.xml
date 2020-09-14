@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/yellow"
+    android:padding="15dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_marginTop="5dp"
+        android:background="#C4BA26"
+        android:gravity="fill"
+        android:text="MobiDir"
+        android:paddingLeft="5dp"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#ffffff"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:gravity="center_horizontal|center_vertical"
+        android:layout_weight="2"
+        android:text="@string/stay" />
+
+    <Button
+        android:id="@+id/button_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/yellow"
+        android:textAllCaps="false"
+        android:textSize="18dp"
+        android:onClick="buttonclicked"
+        android:background="#000000"
+        android:text="Add Company" />
+
+    <Button
+        android:id="@+id/button_register"
+        android:layout_width="match_parent"
+        android:textColor="@color/yellow"
+        android:textSize="18dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="#000000"
+        android:text="Registered Companies"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/button_search"
+        android:layout_width="match_parent"
+        android:textColor="@color/yellow"
+        android:textSize="18dp"
+        android:layout_marginBottom="5dp"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:textAllCaps="false"
+        android:text="Search" />
+
+    <Button
+        android:id="@+id/button_forum"
+        android:layout_width="match_parent"
+        android:textSize="18dp"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:background="#000000"
+        android:textColor="@color/yellow"
+        android:text="Forum Contacts" />
+
+</LinearLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/yellow"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:background="#C4BA26"
+        android:drawableLeft="@drawable/ic_baseline_arrow_back_24"
+        android:drawablePadding="15dp"
+        android:gravity="fill"
+        android:textSize="24dp"
+        android:text="Forum Contacts"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#ffffff"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="505dp"
+        android:src="@drawable/contacts" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="support@mobidir.com"
+        android:textAllCaps="false"
+        android:layout_marginBottom="5dp"
+        android:background="#000000"
+        android:textSize="20dp"
+        android:textColor="@color/yellow"
+        android:drawableRight="@drawable/email"
+        />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+255(0) 766 787 978"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/yellow"
+        android:background="#000000"
+        android:textSize="20dp"
+        android:drawableRight="@drawable/phone"
+        />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:textColor="@color/yellow"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="www.mobidir.com"
+        android:background="#000000"
+        android:textAllCaps="false"
+        android:drawableRight="@drawable/website"
+        />
+
+</LinearLayout>
